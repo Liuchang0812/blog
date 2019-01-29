@@ -1,0 +1,4 @@
+baseURL = "http://liuchang0812.com/"
+languageCode = "en-us"
+title = "My Blog"
+theme = "ananke"
