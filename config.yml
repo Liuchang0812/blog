@@ -1,4 +1,4 @@
-baseURL: http://liuchang0812.github.io/
+baseURL: https://liuchang0812.github.io/
 theme: pure
 title: Make Blog Great Again
 defaultContentLanguage: en  # en/zh/...
@@ -175,7 +175,7 @@ params:
 
   # Search
   search:
-    enable: true # enable search. thanks for https://raw.githubusercontent.com/ppoffice/hexo-theme-icarus/master/source/js/insight.js
+    enable: false # enable search. thanks for https://raw.githubusercontent.com/ppoffice/hexo-theme-icarus/master/source/js/insight.js
 
   # Sidebar only the following widgets. you can remove any you don't like it.
   widgets:
