@@ -2,6 +2,8 @@
 title: "最近在 Ceph KStore 上的一些工作（2020-01-13）"
 date: 2020-01-13T15:50:31+08:00
 draft: false
+toc: true
+backtotop: true
 ---
 
 # 背景

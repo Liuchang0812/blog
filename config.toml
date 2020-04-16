@@ -1,7 +1,7 @@
 themes = "harbor"
-baseurl = "https://liuchang0812.github.io/"
-title = "Hugo Themes"
-paginate = 3
+baseurl = "https://blog.liuchang0812.com/"
+title = "烂笔头"
+paginate = 5
 languageCode = "zh"
 DefaultContentLanguage = "zh"
 enableInlineShortcodes = true
@@ -9,12 +9,12 @@ footnoteReturnLinkContents = "^"
 
 # Optional
 # If you use googleAnalytics, you set top-level options in config.toml to the beginning of the config file like other top-level options.
-googleAnalytics = "UA-XXXXXXXX-XX" 
+# googleAnalytics = "UA-XXXXXXXX-XX" 
 # and disqus too.
-disqusShortName = "yourdisqusshortname"
+# disqusShortName = "yourdisqusshortname"
 
 [Author]
-  name = "Hugo Author"
+  name = "刘畅"
 
 [outputs]
   section = ["JSON", "HTML"]
@@ -40,12 +40,6 @@ disqusShortName = "yourdisqusshortname"
   url = "categories"
   weight = 3
 
-[[params.nav]]
-  identifier = "search"
-  name = "Search"
-  icon = "fas fa-search fa-lg"
-  url = "search"
-  weight = 3
 
 [[params.nav]]
   identifier = "archives"
