@@ -1,7 +1,7 @@
 ---
 title: "memory order in cpp"
 date: 2020-04-20T20:16:46+08:00
-draft: false
+draft: true
 ---
 
 
