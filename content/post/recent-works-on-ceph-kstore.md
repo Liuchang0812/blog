@@ -8,6 +8,11 @@ backtotop: true
 
 # 背景
 
+
+分享我们最近在 ceph kstore 上的一些工作。
+
+<!--more-->
+
 Ceph 目前自带了一些单机存储引擎，包括
 
 * 基于文件的FileStore;

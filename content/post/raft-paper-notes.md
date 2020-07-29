@@ -1,9 +1,13 @@
 ---
 title: "Raft Paper Notes"
 date: 2019-10-28T10:57:14+08:00
+tags: ["raft"]
 draft: false
 ---
 
+介绍 raft 协议
+
+<!--more-->
 
 ### 为什么要发明 RAFT 一致性协议？
 
