@@ -1,7 +1,6 @@
 ---
 title: "使用docker作为开发环境"
 author: "Chang Liu"
-cover: "https://pic3.zhimg.com/80/v2-714d489867d85c7949ffebd891693c0e_720w.jpg"
 tags: ["docker"]
 date: 2020-07-06T11:22:55+08:00
 draft: false
