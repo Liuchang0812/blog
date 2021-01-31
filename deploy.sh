@@ -1,9 +1,18 @@
 #!/bin/bash
 
+set -e -x
+
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-hugo -t hugo-nuo # if using a theme, replace with `hugo -t <YOURTHEME>`
+# hugo -t hugo-nuo # if using a theme, replace with `hugo -t <YOURTHEME>`
+
+USER=root
+HOST=138.68.7.76
+DIR=/usr/share/nginx/html
+hugo -t hugo-nuo && rsync -avz --delete public/ ${USER}@${HOST}:${DIR}
+exit
+
 
 # Go To Public folder
 cd public
